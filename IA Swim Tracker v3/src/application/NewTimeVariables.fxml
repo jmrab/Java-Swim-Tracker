@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NewTimeController">
+   <left>
+      <AnchorPane prefHeight="600.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="297.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Variables &amp; Sentiments" AnchorPane.leftAnchor="269.0" AnchorPane.rightAnchor="269.0" AnchorPane.topAnchor="20.0">
+               <font>
+                  <Font name="DIN Alternate Bold" size="44.0" />
+               </font>
+            </Text>
+            <Button layoutX="461.0" layoutY="550.0" mnemonicParsing="false" onAction="#inputVariables" prefHeight="30.0" prefWidth="70.0" text="Finish" AnchorPane.bottomAnchor="10.0" />
+            <CheckBox fx:id="confidentCheckBox" layoutX="280.0" layoutY="224.0" mnemonicParsing="false" text="Confident" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="224.0" />
+            <CheckBox fx:id="energeticCheckBox" layoutX="280.0" layoutY="249.0" mnemonicParsing="false" text="Energetic" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="249.0" />
+            <CheckBox fx:id="focusedCheckBox" layoutX="280.0" layoutY="299.0" mnemonicParsing="false" text="Focused" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="299.0" />
+            <CheckBox fx:id="excitedCheckBox" layoutX="280.0" layoutY="274.0" mnemonicParsing="false" text="Excited" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="274.0" />
+            <CheckBox fx:id="nervousCheckBox" layoutX="280.0" layoutY="324.0" mnemonicParsing="false" text="Nervous" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="324.0" />
+            <CheckBox fx:id="relaxedCheckBox" layoutX="280.0" layoutY="349.0" mnemonicParsing="false" text="Relaxed" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="349.0" />
+            <Text layoutX="279.0" layoutY="197.0703125" strokeType="OUTSIDE" strokeWidth="0.0" text="Variables" AnchorPane.topAnchor="170.0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <CheckBox fx:id="taperedCheckBox" layoutX="399.0" layoutY="324.0" mnemonicParsing="false" text="Tapered" AnchorPane.leftAnchor="399.0" AnchorPane.topAnchor="324.0" />
+            <CheckBox fx:id="restedCheckBox" layoutX="399.0" layoutY="224.0" mnemonicParsing="false" text="Rested" AnchorPane.topAnchor="224.0" />
+            <CheckBox fx:id="soreCheckBox" layoutX="399.0" layoutY="274.0" mnemonicParsing="false" text="Sore" AnchorPane.leftAnchor="399.0" AnchorPane.rightAnchor="152.5" AnchorPane.topAnchor="274.0" />
+            <CheckBox fx:id="tiredCheckBox" layoutX="399.0" layoutY="349.0" mnemonicParsing="false" text="Tired" AnchorPane.leftAnchor="399.0" AnchorPane.topAnchor="349.0" />
+            <Text layoutX="566.0" layoutY="197.0703125" strokeType="OUTSIDE" strokeWidth="0.0" text="Sentiment" AnchorPane.topAnchor="170.0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <RadioButton fx:id="verySatisfiedRadioButton" layoutX="564.0" layoutY="224.0" mnemonicParsing="false" text="Very satisfied" />
+            <RadioButton fx:id="somewhatSatisfiedRadioButton" layoutX="564.0" layoutY="249.0" mnemonicParsing="false" text="Somewhat satisfied" />
+            <RadioButton fx:id="neutralRadioButton" layoutX="564.0" layoutY="274.0" mnemonicParsing="false" text="Neutral" />
+            <RadioButton fx:id="somewhatUnsatisfiedRadioButton" layoutX="564.0" layoutY="299.0" mnemonicParsing="false" text="Somewhat unsatisfied" />
+            <RadioButton fx:id="veryUnsatisfiedRadioButton" layoutX="564.0" layoutY="324.0" mnemonicParsing="false" text="Very unsatisfied" />
+            <CheckBox fx:id="shavedCheckBox" layoutX="399.0" layoutY="249.0" mnemonicParsing="false" text="Shaved" AnchorPane.leftAnchor="399.0" AnchorPane.topAnchor="249.0" />
+            <CheckBox fx:id="suitedCheckBox" layoutX="399.0" layoutY="299.0" mnemonicParsing="false" text="Suited" AnchorPane.leftAnchor="399.0" AnchorPane.topAnchor="299.0" />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

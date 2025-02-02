@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FXMLManager">
+   <left>
+      <AnchorPane prefHeight="600.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+         <children>
+            <MenuBar layoutY="7.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <TabPane layoutY="28.0" prefHeight="570.0" prefWidth="1000.0" tabClosingPolicy="UNAVAILABLE" tabMinHeight="30.0" tabMinWidth="127.0">
+              <tabs>
+                <Tab text="OHSAA Districts ">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="598.0" layoutX="-49.0" layoutY="-31.0" stroke="WHITE" strokeType="INSIDE" width="1113.0" />
+                              <ImageView fitHeight="572.32" fitWidth="784.0" layoutX="112.0" layoutY="-2.0">
+                                 <image>
+                                    <Image url="@../../../../Desktop/Programming/Ia%20folder/IA%20standards/districts.png" />
+                                 </image>
+                              </ImageView>
+                              <Text layoutX="391.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*As per Central - East - Southeast District ">
+                                 <font>
+                                    <Font name="InaiMathi" size="13.0" />
+                                 </font>
+                              </Text>
+                           </children></AnchorPane>
+                  </content>
+                </Tab>
+                <Tab text="OHSAA States">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="1000.0">
+                           <children>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="535.0" layoutX="17.0" layoutY="8.0" stroke="WHITE" strokeType="INSIDE" width="1007.0" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-7.0" AnchorPane.topAnchor="0.0" />
+                              <ImageView fitHeight="576.24" fitWidth="784.0" layoutX="116.0" layoutY="-7.0">
+                                 <image>
+                                    <Image url="@../../../../Desktop/Programming/Ia%20folder/IA%20standards/state.png" />
+                                 </image>
+                              </ImageView>
+                           </children></AnchorPane>
+                  </content>
+                </Tab>
+                  <Tab text="USA Sectionals">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="594.0" layoutX="-24.0" layoutY="-20.0" stroke="WHITE" strokeType="INSIDE" width="1237.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                              <ImageView fitHeight="592.0" fitWidth="800.0" layoutX="96.0" layoutY="3.0">
+                                 <image>
+                                    <Image url="@../../../../Desktop/Programming/Ia%20folder/IA%20standards/sectionals.png" />
+                                 </image>
+                              </ImageView>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="18.0" layoutX="346.0" layoutY="490.0" stroke="WHITE" strokeType="INSIDE" width="303.0" />
+                           </children></AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab text="USA Futures">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="572.0" layoutX="-31.0" layoutY="-25.0" stroke="WHITE" strokeType="INSIDE" width="1066.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                              <ImageView fitHeight="600.0" fitWidth="800.0" layoutX="100.0" layoutY="-5.0">
+                                 <image>
+                                    <Image url="@../../../../Desktop/Programming/Ia%20folder/IA%20standards/futures.jpeg" />
+                                 </image>
+                              </ImageView>
+                           </children></AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab text="USA Winter Juniors">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f3f3f3" height="538.0" layoutX="177.0" layoutY="81.0" stroke="BLACK" strokeType="INSIDE" width="1166.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="537.0" layoutX="-16.0" layoutY="-2.0" stroke="WHITE" strokeType="INSIDE" width="1008.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                              <ImageView fitHeight="533.0" fitWidth="720.0" layoutX="139.0" AnchorPane.bottomAnchor="-0.5" AnchorPane.topAnchor="0.0">
+                                 <image>
+                                    <Image url="@../../../../Desktop/Programming/Ia%20folder/IA%20standards/winter%20jn%20ats.png" />
+                                 </image>
+                              </ImageView>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="559.0" layoutX="-60.0" layoutY="-24.0" stroke="WHITE" strokeType="INSIDE" width="200.0" />
+                           </children></AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab text="USA Summer Juniors">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="539.0" layoutX="-5.0" layoutY="-5.0" stroke="WHITE" strokeType="INSIDE" width="1003.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                              <ImageView fitHeight="234.0" fitWidth="400.0" layoutX="7.0" layoutY="73.0">
+                                 <image>
+                                    <Image url="@../../../../Desktop/Programming/Ia%20folder/IA%20standards/jnat%20logo.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="470.4" fitWidth="560.0" layoutX="399.0" layoutY="31.0">
+                                 <image>
+                                    <Image url="@../../../../Desktop/Programming/Ia%20folder/IA%20standards/jnat%20times.png" />
+                                 </image>
+                              </ImageView>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="44.0" layoutX="-3.0" layoutY="37.0" stroke="WHITE" strokeType="INSIDE" width="407.0" />
+                           </children></AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab text="USA Olympic Trials">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="537.0" fitWidth="600.0" layoutX="263.0" layoutY="8.0" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <image>
+                                    <Image url="@../../../../Desktop/Programming/Ia%20folder/IA%20standards/trials%20times.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="156.8" fitWidth="560.0" layoutX="-121.0" layoutY="191.0" rotate="270.0" AnchorPane.topAnchor="191.0">
+                                 <image>
+                                    <Image url="@../../../../Desktop/Programming/Ia%20folder/IA%20standards/trials%20logo.png" />
+                                 </image>
+                              </ImageView>
+                           </children></AnchorPane>
+                    </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+            <Button layoutX="14.0" layoutY="360.0" mnemonicParsing="false" onAction="#switchMain" text="Back" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
